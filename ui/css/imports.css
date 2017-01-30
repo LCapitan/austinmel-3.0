@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css?family=Francois+One|Passion+One");
+@import url("../css/bootstrap.css");
+html {
+  height: 100%;
+  width: 100%; }
+
+body {
+  background: #fff;
+  font-family: "Healvetica Neue", Helvetica, cursive;
+  width: 100vw;
+  margin: 0;
+  padding: 0; }
+  body h1 {
+    font-family: "Healvetica Neue", Helvetica, cursive;
+    font-size: 46px;
+    line-height: 46px; }
+  body h2 {
+    font-family: "Healvetica Neue", Helvetica, cursive;
+    font-size: 40px;
+    line-height: 40px; }
+  body h3 {
+    font-family: "Healvetica Neue", Helvetica, cursive;
+    font-size: 36px;
+    line-height: 36px; }
+  body h4 {
+    font-family: "Healvetica Neue", Helvetica, cursive;
+    font-size: 28px;
+    line-height: 28px; }
+  body h5 {
+    font-family: "Healvetica Neue", Helvetica, cursive;
+    font-size: 24px;
+    line-height: 24px; }
+  body h6 {
+    font-family: "Healvetica Neue", Helvetica, cursive;
+    font-size: 22px;
+    line-height: 22px; }
+  body p {
+    font-size: 16px; }
+  body a {
+    font-size: 20px;
+    text-decoration: none; }
+  body h1,
+  body h2,
+  body h3,
+  body h4,
+  body h5,
+  body h6 {
+    margin: 0;
+    padding: 0; }
+
+#headerArea {
+  margin: 30px 30px 0 30px;
+  text-align: center; }
+  #headerArea .contactBtn i {
+    color: #cac8c8;
+    border: 1px solid #cac8c8;
+    border-radius: 50%;
+    font-size: 22px;
+    padding: 20px;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    -o-transition: all ease .5s;
+    transition: all ease .5s; }
+  #headerArea .contactBtn:hover i {
+    color: #949292;
+    border: 1px solid #949292;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    -o-transition: all ease .5s;
+    transition: all ease .5s; }
+  #headerArea .bioBtn i {
+    color: #cac8c8;
+    border: 1px solid #cac8c8;
+    border-radius: 50%;
+    font-size: 22px;
+    padding: 20px 24px;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    -o-transition: all ease .5s;
+    transition: all ease .5s; }
+  #headerArea .bioBtn:hover i {
+    color: #949292;
+    border: 1px solid #949292;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    -o-transition: all ease .5s;
+    transition: all ease .5s; }
+  #headerArea h1 {
+    color: #949292;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    text-transform: uppercase; }
+    #headerArea h1 .lightle {
+      font-weight: 100; }
+  #headerArea h2 {
+    color: #cac8c8;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 100; }
+
+.divDivider {
+  margin: 30px 30px; }
+  .divDivider hr {
+    border-color: #cac8c8; }
+
+#bodyArea {
+  height: 50%;
+  margin: 0 30px; }
+  #bodyArea .skillCard {
+    border: 1px solid #f0efef;
+    border-radius: 2px;
+    color: #cac8c8;
+    margin: 175px 0;
+    text-align: center;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    -o-transition: all ease .5s;
+    transition: all ease .5s; }
+    #bodyArea .skillCard a h3 {
+      color: #cac8c8;
+      font-size: 24px;
+      padding: 20px 40px;
+      text-decoration: none;
+      -webkit-transition: all ease .5s;
+      -moz-transition: all ease .5s;
+      -o-transition: all ease .5s;
+      transition: all ease .5s; }
+    #bodyArea .skillCard:hover {
+      border: 1px solid #bab9b9;
+      color: #949292;
+      cursor: pointer;
+      -webkit-transition: all ease .5s;
+      -moz-transition: all ease .5s;
+      -o-transition: all ease .5s;
+      transition: all ease .5s; }
+      #bodyArea .skillCard:hover a {
+        text-decoration: none; }
+        #bodyArea .skillCard:hover a h3 {
+          color: #949292;
+          -webkit-transition: all ease .5s;
+          -moz-transition: all ease .5s;
+          -o-transition: all ease .5s;
+          transition: all ease .5s; }
+
+#footerArea {
+  color: #cac8c8;
+  text-align: center; }
+  #footerArea h4 {
+    font-size: 14px;
+    font-weight: 100; }
+
+/*# sourceMappingURL=imports.css.map */

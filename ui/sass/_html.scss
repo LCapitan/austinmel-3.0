@@ -1,0 +1,179 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: $white;
+  font-family: $pfont;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+
+  h1 {
+    font-family: $pfont;
+    font-size: 46px;
+    line-height: 46px;
+  }
+
+  h2 {
+    font-family: $pfont;
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  h3 {
+    font-family: $pfont;
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  h4 {
+    font-family: $pfont;
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  h5 {
+    font-family: $pfont;
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  h6 {
+    font-family: $pfont;
+    font-size: 22px;
+    line-height: 22px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  a {
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.xs-hidden {
+
+}
+
+#headerArea {
+  margin: 30px 30px 0 30px;
+  text-align: center;
+  .contactBtn {
+    i {
+      color: $smoke;
+      border: 1px solid $smoke;
+      border-radius: 50%;
+      font-size: 22px;
+      padding: 20px;
+      @include transitionEase;
+    }
+    &:hover {
+      i {
+        color: $gmetal;
+        border: 1px solid $gmetal;
+        @include transitionEase;
+      }
+    }
+  }
+  .bioBtn {
+    i {
+      color: $smoke;
+      border: 1px solid $smoke;
+      border-radius: 50%;
+      font-size: 22px;
+      padding: 20px 24px;
+      @include transitionEase;
+    }
+    &:hover {
+      i {
+        color: $gmetal;
+        border: 1px solid $gmetal;
+        @include transitionEase;
+      }
+    }
+  }
+  h1 {
+    color: $gmetal;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    text-transform: uppercase;
+    .lightle {
+      font-weight:100;
+    }
+  }
+  h2 {
+    color: $smoke;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight:100;
+  }
+}
+
+.divDivider {
+  margin: 30px 30px;
+  hr {
+    border-color: $smoke;
+  }
+}
+
+#bodyArea {
+  height: 50%;
+  margin: 0 30px;
+  .skillCard {
+    border: 1px solid lighten($smoke, 15%);
+    border-radius: 2px;
+    color: $smoke;
+    margin: 175px 0;
+    text-align: center;
+    @include transitionEase;
+    a {
+      h3 {
+        color: $smoke;
+        font-size: 24px;
+        padding: 20px 40px;
+        text-decoration: none;
+        @include transitionEase;
+      }
+    }
+    &:hover {
+      border: 1px solid lighten($gmetal, 15%);
+      color: $gmetal;
+      cursor: pointer;
+      @include transitionEase;
+      a {
+        h3 {
+          color: $gmetal;
+          @include transitionEase;
+        }
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+#footerArea {
+  color: $smoke;
+  text-align: center;
+  h4 {
+    font-size: 14px;
+    font-weight: 100;
+  }
+}
